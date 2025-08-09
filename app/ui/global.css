@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Make sure this file is processed by Tailwind CSS using PostCSS, not loaded directly in the browser */
 
 input[type='number'] {
   -moz-appearance: textfield;
